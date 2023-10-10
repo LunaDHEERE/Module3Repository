@@ -1,15 +1,17 @@
 import * as readline from 'node:readline/promises';
 import{stdin as input, stdout as output} from 'node:process';
 const userInput = readline.createInterface({input, output});
-let getalUser= await userInput.question('Geef een getal in: ');
-for(let rows = 0; rows<=getalUser; rows++){
-    let sterretjes = '';
-    for(let columns = 0; columns<rows; columns++){
-        sterretjes += '*';
-    }
-    console.log(sterretjes);
+
+let hoogte= await userInput.question('Geef een getal in: ');
+let lijn = '';
+for(let i = 0; i < hoogte; i++){ 
+    lijn += '*';
+    console.log(lijn)
 }
-for(let rows = 1; rows<=getalUser; row++){
-    let sterretjes = '*' *getalUser
+let k= 0
+for(let j= hoogte; j>(hoogte-k); j--){
+    lijn +='*';
+    console.log(lijn)
 }
+
 process.exit();

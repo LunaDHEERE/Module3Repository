@@ -8,8 +8,8 @@ let cijfer2 = 1;
 let rij;
 for(let i=0; i<getal; i++){
     console.log(cijfer1);
-    rij= cijfer1+cijfer2;
+    /*rij= cijfer1+cijfer2;
     cijfer1 = cijfer2;
-    cijfer2= rij;
+    cijfer2= rij;*/ //ik snap het ni :/
 }
 process.exit();
