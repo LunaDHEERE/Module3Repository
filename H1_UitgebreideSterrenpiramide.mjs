@@ -28,5 +28,3 @@ for (let i = (hoogte -2); i >= 0; i -=2){
     console.log(" ".repeat(amount_whitespace) + "*".repeat(i))
 }
 process.exit()
-
-process.exit();

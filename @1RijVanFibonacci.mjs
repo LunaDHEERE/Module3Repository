@@ -14,7 +14,3 @@ for(let i=0; i<getal; i++){
     console.log(UitgeprintGetal);}
 process.exit();*/
 
-let getal1 = 1;
-let getal2 = 0;
-let VolgendeCijfer;
-for(let i = 0; i<=)
